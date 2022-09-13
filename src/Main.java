@@ -26,7 +26,11 @@ public class Main {
         Book book1 = new Book("Happy Book", "Hamza", 1000.0);
         System.out.println(book1);
 
-
+        DeckOfCards deck = new DeckOfCards();
+        Card[] allCard = deck.returnDeck();
+        for (Card card : allCard){
+            System.out.println("Rank: "+card.getRank()+ " Suit: "+card.getSuit());
+        }
 
 
 
