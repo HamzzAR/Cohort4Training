@@ -32,6 +32,12 @@ public class Main {
             System.out.println("Rank: "+card.getRank()+ " Suit: "+card.getSuit());
         }
 
+        StringBuilder sb = new StringBuilder();
+        sb.append("This ");
+        sb.append("That ");
+        sb.append("and the other");
+        System.out.println(sb.toString());
+
 
 
 
